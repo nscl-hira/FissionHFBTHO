@@ -31,6 +31,9 @@ https://github.com/nscl-hira/FissionHFBTHO.git
 
 If you `ls` in your home directory, you should see a new folder names `FissionHFBTHO`
 
+## Linux
+The most important linux command is `man`. For nearly any command you can type `man command` and get the manual page wich has all of the information on what the command does. Going through a linux quickstart guide or something is probably beneficial. 
+
 ## Loading the enviroment
 Before doing anything with the code, make sure the enviroment variables are set correctly. From within the folder, this is done with the command
 ```
@@ -39,6 +42,37 @@ source ~/bin/env.sh
 This also loads all of the required modules to run HFBTHO as complied in my (Adam's) directory.
 
 ## Basics of git
+Git is a a version control system. Basically, it allows you to save a record of the changes to a directory or code base, and allows you to revert to old versions as needed. It is also useful for tracking changes made by multiple people and merging everything together. GitHub has a page that describes some of the philisophy around git and diestributed version control systems [here](https://guides.github.com/introduction/git-handbook/).
+
+#### Basic git commands
+
+* See the changes made since the last commit
+```
+git status
+```
+* Add the changes made to some file `dir/test.py` to the next commit
+```
+git add dir/test.py
+```
+* Add all of the changes since the last commit to the next commit
+```
+git add .
+```
+* Create a new commit
+```
+git commit -m "This is the message for this commit"
+```
+* Push the status of your local repository to the remote repository (what is on github)
+```
+git push
+```
+* Pull any changes from the remote repository
+```
+git pull
+```
+
+## Setting up a python enviroment
+Setting up the ability to plot stuff on the HPCC is a pain. The easiest way to just build a local installation of Conda, a package/enviroment manager for python. There are installation instructions [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html#). You will need to either use `wget` or `curl` to download the file to the HPCC, or download it locally and `scp` it over. The first option (`wget`) is probably the easiest.
 
 ## Basics of HTBTHO
 
