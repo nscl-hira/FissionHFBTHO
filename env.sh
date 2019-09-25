@@ -6,4 +6,6 @@ module load intel
 module load powertools
 
 #Set the directories for HFBTHO
-export HFBTHODIR="/home/antho121/HFBTHO/newBuild/hfbtho-master/src/hfbtho"
+export HFBTHODIR="/mnt//home/antho121/HFBTHO/newBuild/hfbtho-master/src/hfbtho"
+
+export PATH=`pwd`/bin:${PATH}

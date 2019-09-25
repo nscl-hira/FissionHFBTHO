@@ -39,7 +39,7 @@ Before doing anything with the code, make sure the enviroment variables are set 
 ```
 source ~/bin/env.sh
 ```
-This also loads all of the required modules to run HFBTHO as complied in my (Adam's) directory.
+This also loads all of the required modules to run HFBTHO as complied in my (Adam's) directory. In addition this adds the directory /bin to the `PATH` variable so scripts can easily be called.
 
 ## Basics of git
 Git is a a version control system. Basically, it allows you to save a record of the changes to a directory or code base, and allows you to revert to old versions as needed. It is also useful for tracking changes made by multiple people and merging everything together. GitHub has a page that describes some of the philisophy around git and diestributed version control systems [here](https://guides.github.com/introduction/git-handbook/).
