@@ -1,2 +1,3 @@
 /mnt/home/antho121/FissionHFBTHO/running/Pb196
 Tue Sep 24 22:14:13 EDT 2019
+slurmstepd: error: *** JOB 43537797 ON csp-019 CANCELLED AT 2019-09-24T22:24:41 DUE TO TIME LIMIT ***
