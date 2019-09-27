@@ -35,7 +35,7 @@ If you `ls` in your home directory, you should see a new folder names `FissionHF
 The most important linux command is `man`. For nearly any command you can type `man command` and get the manual page wich has all of the information on what the command does. Going through a linux quickstart guide or something is probably beneficial. 
 
 ## Loading the enviroment
-Before doing anything with the code, make sure the enviroment variables are set correctly. From within the folder, this is done with the command
+Once on the HPCC, and before doing anything with the code, make sure the enviroment variables are set correctly. From within the folder, this is done with the command
 ```
 source ~/bin/env.sh
 ```
