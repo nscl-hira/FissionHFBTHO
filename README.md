@@ -35,7 +35,7 @@ If you `ls` in your home directory, you should see a new folder names `FissionHF
 The most important linux command is `man`. For nearly any command you can type `man command` and get the manual page wich has all of the information on what the command does. Going through a linux quickstart guide or something is probably beneficial. 
 
 ## Loading the enviroment
-Before doing anything with the code, make sure the enviroment variables are set correctly. From within the folder, this is done with the command
+Once on the HPCC, and before doing anything with the code, make sure the enviroment variables are set correctly. From within the folder, this is done with the command
 ```
 source ~/bin/env.sh
 ```
@@ -75,8 +75,13 @@ git pull
 Setting up the ability to plot stuff on the HPCC is a pain. The easiest way to just build a local installation of Conda, a package/enviroment manager for python. There are installation instructions [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html#). You will need to either use `wget` or `curl` to download the file to the HPCC, or download it locally and `scp` it over. The first option (`wget`) is probably the easiest.
 
 ## Basics of HTBTHO
+HFBTHO, which stands for Hartree-Fock-Bogoliubov (HFB) Transformed Harmonic Oscillator (THO) does what the name says. It's a program that iterativley "solves the nuclear Skyrme-Hartree–Fock
+(HF) or Skyrme-Hartree–Fock–Bogoliubov (HFB) problem by using the cylindrical transformed deformed
+harmonic oscillator basis." It iterates, trying to find the lowest energy state given the constraints put on the system. The energy is found by integrating over the space of some phenomenological energy density functional (EDF), which is a functional of the proton and neutron densities. It's these EDF models that are the main physics input to the code.
 
 ## Basics of submitting jobs via SLURM
 
 ## Running a theory calculation
 
+
+### 
