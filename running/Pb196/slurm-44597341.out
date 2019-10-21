@@ -1,0 +1,33 @@
+/var/lib/slurmd/job44597341/slurm_script: line 23: cd: /mnt/home/antho121/FissionHFBTHO/running/Pb196: Permission denied
+/mnt/home/kendzi23/FissionHFBTHO/running/Pb196
+Fri Oct  4 11:58:50 EDT 2019
+/var/lib/slurmd/job44597341/slurm_script: line 34: /mnt/home/antho121/FissionHFBTHO/running/Pb196/Pb196OutTest.txt: Permission denied
+Fri Oct  4 11:58:50 EDT 2019
+JobId=44597341 JobName=hfbtho-PES-196Pb
+   UserId=kendzi23(992748) GroupId=nscl(2002) MCS_label=N/A
+   Priority=40500 Nice=0 Account=general QOS=kendzi23
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:24 TimeLimit=00:10:00 TimeMin=N/A
+   SubmitTime=2019-10-04T11:58:24 EligibleTime=2019-10-04T11:58:24
+   AccrueTime=2019-10-04T11:58:24
+   StartTime=2019-10-04T11:58:26 EndTime=2019-10-04T12:08:26 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2019-10-04T11:58:26
+   Partition=general-short AllocNode:Sid=dev-intel16.i:15571
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=csm-[018,020-021],qml-[001,003]
+   BatchHost=csm-018
+   NumNodes=5 NumCPUs=80 NumTasks=5 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=80,mem=80G,node=5,billing=12451
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=16 MinMemoryCPU=1G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196/submitIntel.sh
+   WorkDir=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196
+   Comment=stdout=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196/slurm-44597341.out 
+   StdErr=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196/slurm-44597341.out
+   StdIn=/dev/null
+   StdOut=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196/slurm-44597341.out
+   Power=
+

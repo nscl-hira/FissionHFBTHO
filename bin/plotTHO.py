@@ -132,6 +132,7 @@ for run in runs:
 for i in range(numY):
     xDataSorted, yData[i] = (list(x) for x in zip(*sorted(zip(xData, yData[i]))))
 
+
 # Get interpolated data for each yAxis
 xInterp = np.linspace(xDataSorted[0], xDataSorted[-1], 10*len(xData))
 
