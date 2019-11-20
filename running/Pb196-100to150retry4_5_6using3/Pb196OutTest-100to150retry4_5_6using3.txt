@@ -1,0 +1,51 @@
+task 000000 finished row 000003
+task 000002 finished row 000002
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002AF724FDD5D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002AF72765C359  Unknown               Unknown  Unknown
+librxm-fi.so       00002AF72765E93B  Unknown               Unknown  Unknown
+librxm-fi.so       00002AF72765F02D  Unknown               Unknown  Unknown
+librxm-fi.so       00002AF72765F1C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002AF7276651E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002AF7257B13B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002AF72580F38F  Unknown               Unknown  Unknown
+libmpi.so.12       00002AF72580BDD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002AF7252D26BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002AF726E663D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-426: task 2: Exited with exit code 174
+task 000001 finished row 000001
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002AAE4D92E5D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002AAE4FFAD359  Unknown               Unknown  Unknown
+librxm-fi.so       00002AAE4FFAF93B  Unknown               Unknown  Unknown
+librxm-fi.so       00002AAE4FFB002D  Unknown               Unknown  Unknown
+librxm-fi.so       00002AAE4FFB01C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002AAE4FFB61E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002AAE4E1023B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002AAE4E16038F  Unknown               Unknown  Unknown
+libmpi.so.12       00002AAE4E15CDD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002AAE4DC236BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002AAE4F7B73D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-280: task 1: Exited with exit code 174
+slurmstepd: error: *** STEP 48205410.0 ON lac-225 CANCELLED AT 2019-10-30T23:10:44 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

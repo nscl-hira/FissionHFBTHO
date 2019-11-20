@@ -35,7 +35,11 @@ for i in range(1,int(sys.argv[1])+1,1):
         timeUnits = fIn[-1].split("si=")[1].split("\n")[2].split()[4]
         timeOut = False
     except:
-        timeOut = True
+        if time != "minutes":
+            timeOut = True
+        else:
+            print("time error occurred")
+            timeOut = False
 
     #take the enTable and split it up
     enTable = [enTable[ind].split() for ind in range(5,len(enTable)-3,2)]
@@ -91,8 +95,14 @@ for i in range(1,int(sys.argv[1])+1,1):
 
     
     #Print the number of iterations and if it timed out
-    if not timeOut:
+    if not timeOut and time != "minutes":
         print("%d %s in %d iterations in %.2f %s" % (i, "converged" if conv else "did not converge",len(enTable), time, timeUnits) )
+    elif not timeOut and time == "minutes":
+        print("can't check length of time, due to time error")
+        if conv:
+            print(str(i) + " converged in " + str(len(enTable)) + " iterations")
+        else:
+            print(str(i) + " did not converge after " + str(len(enTable)) + " iterations")
     else:
         print( "%d timed out after %d iterations" % (i, len(enTable)) )
 

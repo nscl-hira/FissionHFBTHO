@@ -1,0 +1,32 @@
+/var/lib/slurmd/job48970855/slurm_script: line 20: i#Running: command not found
+/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150comp5_6_9
+Wed Nov  6 14:35:43 EST 2019
+Wed Nov  6 18:32:02 EST 2019
+JobId=48970855 JobName=hfbtho-PES-196Pb
+   UserId=kendzi23(992748) GroupId=nscl(2002) MCS_label=N/A
+   Priority=59817 Nice=0 Account=general QOS=kendzi23
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=03:56:35 TimeLimit=16:00:00 TimeMin=N/A
+   SubmitTime=2019-11-06T12:10:15 EligibleTime=2019-11-06T12:10:15
+   AccrueTime=2019-11-06T12:10:15
+   StartTime=2019-11-06T14:35:27 EndTime=2019-11-07T06:35:27 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2019-11-06T14:35:27
+   Partition=general-long AllocNode:Sid=dev-intel14.i:86039
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=skl-[073-074]
+   BatchHost=skl-073
+   NumNodes=2 NumCPUs=48 NumTasks=3 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=48,mem=48G,node=2,billing=7471
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=16 MinMemoryCPU=1G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150comp5_6_9/submitIntel.sh
+   WorkDir=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150comp5_6_9
+   Comment=stdout=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150comp5_6_9/slurm-48970854.out 
+   StdErr=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150comp5_6_9/slurm-48970855.out
+   StdIn=/dev/null
+   StdOut=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150comp5_6_9/slurm-48970855.out
+   Power=
+

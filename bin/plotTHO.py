@@ -119,6 +119,7 @@ for run in runs:
     if xSub < 0:
         xData.append(float(run[xAxis]))
     else:
+        print(str(run[xAxis][xSub]))
         xData.append(float(run[xAxis][xSub]))
 
     # Loop through the yAxis and get the data

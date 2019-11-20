@@ -1,0 +1,31 @@
+/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150retry4using3
+Wed Nov  6 12:38:16 EST 2019
+Wed Nov  6 18:05:02 EST 2019
+JobId=48972128 JobName=hfbtho-PES-196Pb
+   UserId=kendzi23(992748) GroupId=nscl(2002) MCS_label=N/A
+   Priority=57058 Nice=0 Account=general QOS=kendzi23
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=05:26:51 TimeLimit=16:00:00 TimeMin=N/A
+   SubmitTime=2019-11-06T12:25:16 EligibleTime=2019-11-06T12:25:16
+   AccrueTime=2019-11-06T12:25:16
+   StartTime=2019-11-06T12:38:11 EndTime=2019-11-07T04:38:11 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2019-11-06T12:38:11
+   Partition=general-long AllocNode:Sid=dev-intel14.i:86039
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=skl-064
+   BatchHost=skl-064
+   NumNodes=1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=16,mem=16G,node=1,billing=2490
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=16 MinMemoryCPU=1G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150retry4using3/submitIntel.sh
+   WorkDir=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150retry4using3
+   Comment=stdout=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150retry4using3/slurm-48972127.out 
+   StdErr=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150retry4using3/slurm-48972128.out
+   StdIn=/dev/null
+   StdOut=/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150retry4using3/slurm-48972128.out
+   Power=
+

@@ -1,0 +1,4 @@
+/var/lib/slurmd/job48469259/slurm_script: line 20: i#Running: command not found
+/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150retry4-11using3
+Fri Nov  1 12:38:54 EDT 2019
+slurmstepd: error: *** JOB 48469259 ON lac-354 CANCELLED AT 2019-11-02T04:39:01 DUE TO TIME LIMIT ***
