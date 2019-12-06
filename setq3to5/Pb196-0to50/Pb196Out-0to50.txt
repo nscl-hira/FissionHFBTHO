@@ -1,0 +1,134 @@
+task 000004 finished row 000004
+task 000005 finished row 000005
+task 000001 finished row 000001
+task 000000 finished row 000011
+task 000006 finished row 000006
+task 000002 finished row 000002
+task 000010 finished row 000010
+task 000003 finished row 000003
+task 000008 finished row 000008
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002B9A12D405D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B9A153BF359  Unknown               Unknown  Unknown
+librxm-fi.so       00002B9A153C193B  Unknown               Unknown  Unknown
+librxm-fi.so       00002B9A153C202D  Unknown               Unknown  Unknown
+librxm-fi.so       00002B9A153C21C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002B9A153C81E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002B9A135143B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002B9A1357238F  Unknown               Unknown  Unknown
+libmpi.so.12       00002B9A1356EDD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B9A130356BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B9A14BC93D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-401: task 10: Exited with exit code 174
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002B4D8D6735D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B4D8FCF2359  Unknown               Unknown  Unknown
+librxm-fi.so       00002B4D8FCF493B  Unknown               Unknown  Unknown
+librxm-fi.so       00002B4D8FCF502D  Unknown               Unknown  Unknown
+librxm-fi.so       00002B4D8FCF51C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002B4D8FCFB1E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002B4D8DE473B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002B4D8DEA538F  Unknown               Unknown  Unknown
+libmpi.so.12       00002B4D8DEA1DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B4D8D9686BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B4D8F4FC3D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-301: task 5: Exited with exit code 174
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002B55F1AFB5D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B55F417A359  Unknown               Unknown  Unknown
+librxm-fi.so       00002B55F417C93B  Unknown               Unknown  Unknown
+librxm-fi.so       00002B55F417D02D  Unknown               Unknown  Unknown
+librxm-fi.so       00002B55F417D1C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002B55F41831E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002B55F22CF3B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002B55F232D38F  Unknown               Unknown  Unknown
+libmpi.so.12       00002B55F2329DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B55F1DF06BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B55F39843D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-044: task 1: Exited with exit code 174
+task 000007 finished row 000007
+task 000009 finished row 000009
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002AD90EF835D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002AD911602359  Unknown               Unknown  Unknown
+librxm-fi.so       00002AD91160493B  Unknown               Unknown  Unknown
+librxm-fi.so       00002AD91160502D  Unknown               Unknown  Unknown
+librxm-fi.so       00002AD911610D7A  Unknown               Unknown  Unknown
+librxm-fi.so       00002AD9116269DD  Unknown               Unknown  Unknown
+librxm-fi.so       00002AD9116275EB  Unknown               Unknown  Unknown
+libmpi.so.12       00002AD90F76D432  Unknown               Unknown  Unknown
+libmpi.so.12       00002AD90F75746C  Unknown               Unknown  Unknown
+libmpi.so.12       00002AD90F7B538F  Unknown               Unknown  Unknown
+libmpi.so.12       00002AD90F7B1DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002AD90F2786BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002AD910E0C3D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-358: task 7: Exited with exit code 174
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002B222AF085D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B222D587359  Unknown               Unknown  Unknown
+librxm-fi.so       00002B222D58993B  Unknown               Unknown  Unknown
+librxm-fi.so       00002B222D58A02D  Unknown               Unknown  Unknown
+librxm-fi.so       00002B222D58A1C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002B222D5901E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002B222B6DC3B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002B222B73A38F  Unknown               Unknown  Unknown
+libmpi.so.12       00002B222B736DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B222B1FD6BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B222CD913D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-379: task 9: Exited with exit code 174
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 50146360.0 ON lac-043 CANCELLED AT 2019-11-23T08:56:20 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.

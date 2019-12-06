@@ -1,0 +1,178 @@
+ 
+  ==========================================
+           FORTRAN 95 CODE (KIND= 8) 
+               Version: 3.00  
+  ==========================================
+       AXIALLY DEFORMED CONFIGURATIONAL     
+     HARTREE-FOCK-BOGOLIUBOV CALCULATIONS   
+                     WITH                   
+      SKYRME+DELTA PAIRING OR GOGNY EDFs    
+                  USING THE                 
+             HARMONIC-OSCILLATOR            
+                    AND/OR                  
+        TRANSFORMED HARMONIC-OSCILLATOR     
+                    BASIS                   
+                     ---                    
+                v1.66  (2005)               
+    Stoitsov, Dobaczewski, Nazarewicz, Ring 
+                v2.00d (2012)               
+        Stoitsov, Schunck, Kortelainen      
+                v3.00  (2016)               
+            Schunck, Navarro Perez          
+  ==========================================
+    Nucleus: Pb (A= 196, N=114, Z= 82)
+      No Reflection Symmetry Imposed     
+            (12/ 6/2019, 12:58)                               
+  ==========================================
+ 
+ 
+  ---------------------------------------
+           UNEDF Module Version: 17
+         M.Kortelainen & M.Stoitsov 
+  ---------------------------------------
+ 
+  UNE1 functional
+  ----------------------------------------
+  Crho(0)=   -779.373008720865187    ; Crho(1)=    287.722131583286739    
+  CDrho(0)=   891.477890442349576    ; CDrho(1)=  -200.587774317884794    
+  Ctau(0)=  -0.989915057807676746    ; Ctau(1)=   -33.6320970701835549    
+  CrDr(0)=   -45.1351310222373030    ; CrDr(1)=   -145.382167908056999    
+  CrdJ(0)=   -74.0263331764599002    ; CrdJ(1)=   -35.6582611147916992    
+  CJ(0)=      0.00000000000000000    ; CJ(1)=      0.00000000000000000    
+  CpV0(0)=   -186.065399575123990    ; CpV0(1)=   -206.579593890105997    
+  CpV1(0)=   0.500000000000000000    ; CpV1(1)=   0.500000000000000000    
+  sigma=     0.270018011502707656    ; hbzero=     20.7355300000000007    
+  functional has DME couplings: F
+  use 3-Nucleon DME couplings: F
+  e^2 chrg=   1.43997840859651305    ; CExPar=     1.00000000000000000    
+  c.m. correction: F, chr. density in direct Coul: F
+  use tensor terms: F
+ 
+  Coupling constants in natural units
+  ----------------------------------------
+  Crho_nu(0)=  -0.877667471343921535    ; Crho_nu(1)=   0.324009624211695879    
+  CDrho_nu(0)=  0.941450913381434940    ; CDrho_nu(1)= -0.211831998717341152    
+  Ctau_nu(0)=  -0.140321584905665799E-01; Ctau_nu(1)=  -0.476738799694694126    
+  CrDr_nu(0)=  -0.639795613776358740    ; CrDr_nu(1)=   -2.06080875899188509    
+  CrdJ_nu(0)=   -1.04933168903203322    ; CrdJ_nu(1)=  -0.505459905387130815    
+  CJ_nu(0)=      0.00000000000000000    ; CJ_nu(1)=      0.00000000000000000    
+  CpV0_nu(0)=  -0.209531953150026401    ; CpV0_nu(1)=  -0.232633396040174689    
+  CpV1_nu(0)=   0.443851127103029534E-03; CpV1_nu(1)=   0.443851127103029534E-03
+  fpi_nu=        93.0000000000000000    ; Lambda_nu=     700.000000000000000    
+ 
+  Nuclear matter properties
+  ----------------------------------------
+  E_NM=      -15.8000000000000149    ; K_NM=        220.000000000000284    
+  P_NM=      0.156599062982740031E-14; RHO_NM=     0.158706769332587178    
+  ASS_NM=     28.9867890577721248    ; LASS_NM=     40.0047904804136252    
+  SMASS_NM=  0.992423332283363990    ; VMASS_NM=    1.24983857423226996    
+ 
+  Associated (t,x)-coupling constants
+  ----------------------------------------
+  t0=      -2078.32802325564035    ; x0=       0.537569206858470316E-01
+  t1=       239.400812041522045    ; x1=       -5.07723238187693671    
+  t2=       1575.11954189757989    ; x2=       -1.36650561394298609    
+  t3=       14263.6462470775932    ; x3=      -0.162491168089956450    
+  b4=       38.3680720616682009    ; b4p=       71.3165222295833985    
+  te=      -470.362198163525534    ; to=       -203.218452192313947    
+  sigma=   0.270018011502707656    ; hbzero=    20.7355300000000007    
+ 
+  ---------------------------------------
+        Characteristics of the run       
+  ---------------------------------------
+  Output file ................:     7
+  Nucleus ....................:   Pb 196
+  Number of HO shells ........:    31
+  HO length b0 (fm) ..........:     2.21275176181742
+  Basis deformation ..........:  beta0=   0.010 q=   1.010
+  HO: b0,1/b0,bp,bz,q ........:   0.22127518E+01  0.45192598E+00  0.22092651E+01  0.22197416E+01  0.10095067E+01
+  h**2/(2m_n), cmc, e**2 .....:   0.20735530E+02  0.20735530E+02  0.14399784E+01
+  h**2/(2m_p), cmc, e**2 .....:   0.20735530E+02  0.20735530E+02  0.14399784E+01
+  hom=f*41.0_pr*A^{-1/3}, f...:   0.84699285E+01  0.12000000E+01
+  THO basis is ...............:  OFF
+  Maximal number of iterations:   500
+  Initial mixing parameter ...:  0.300
+  Initial w.f. ...............:  from prolate scratch
+  Energy functional ..........:    UNE1                          
+    direct Coulomb by substitution method, exchange Coulomb with Slater approximation
+  Lipkin-Nogami procedure is .:   ON
+  PAV procedure is ...........:  OFF
+  Constraint calculation is ..:   ON
+    Constraint 1 .............: lambda=1 Ql=   0.000
+    Constraint 2 .............: lambda=2 Ql=   5.000
+    Constraint 3 .............: lambda=3 Ql=  10.000
+  Temperature T ..............:   0.00 MeV
+  Pairing regularization is ..:  OFF
+  Collective inertia is ......:   ON
+  Fission fragments are ......:   ON
+  Restart indicator ..........:   2
+  Broyden mixing (#iterations):   7
+ 
+  ---------------------------------------
+        Harmonic Oscillator Basis        
+  ---------------------------------------
+  NUV, NQP:                      ******    5984
+  Comparison with bookkeeping spherical basis:
+  n00:                               31      31  Maximal number of shells
+  nbx, 2*n00+1:                      32      63  Maximal number of K-blocks
+  ntx, (n00+1)*(n00+2)*(n00+3)/6   5984    5984  Max.num. p/n levels
+  nzx, n00:                          31      31  Maximal nz-quantum number
+  nrx, n00/2  :                      15      15  Maximal nr-quantum number
+  nlx, n00:                          31      31  Maximal ml-quantum number
+  ndx, (n00+2)*(n00+2)/4:           528     272  Maximal dim. of one k-block
+ 
+  Actual basis used
+  Number of blocks: nb .......:   32
+  Number of levels: nt .......: 5984
+  Maximal 2*omega : nom ......:   63
+  Maximal nz:       nzm ......:   31
+  Maximal nr:       nrm ......:   15
+  Maximal ml:       nlm ......:   31
+  Maximal N=nz+2*nr+nl .......:   31
+  2 x biggest block dim. .....: 1056
+  Non-zero elements of h .....:   979880
+  Number of Broyden elements .:  3919520
+
+  ---------------------------------------
+            Integration Meshes           
+  ---------------------------------------
+  Number of Gauss-Hermite mesh points ngh ....:  80
+  Number of Gauss-Laguerre mesh points ngl ...:  40
+  Number of Gauss-Legendre mesh points nleg ..:  80
+  Integration boundaries
+    Hermite  - from xh(1)  =-11.88786356 to xh(ngh)   = 11.88786356
+    Laguerre - From xl(1)  =  0.03570039 to xl(ngl)   =142.28004447
+    Legendre - From xleg(1)=  0.00978669 to xleg(nleg)=  0.99988775
+  Max.dev.in:     Orthogonality            Normalization
+  Hermite    2.108035968007016E-014  6.550315845288424E-015
+  Laguerre   3.144012827860365E-014  1.620925615952729E-014
+
+  Scratch initialization for the nucleus: Pb 114  82
+
+
+  Initial potentials of Saxon-Woods shape 
+  v0ws   =  -71.28000000
+  kappa  =    0.46160000
+  vs0    =   11.11750000   11.11750000
+  r0     =    1.23340000    1.23340000
+  a      =    0.61500000    0.61500000
+  r0-so  =    1.14430000    1.14430000
+  a-so   =    0.64760000    0.64760000
+  b2_ws  =    0.01000000
+  b3_ws  =    0.01000000
+  b4_ws  =    0.00000000
+
+  ### REGULAR STAGE (no reflection symmetry imposed)
+  |HFB+HO> iterations(b0=  2.213, Nsh= 31, inin=  2, N=114, Z= 82)...
+  ----------------------------------------------------------------------------------------------------------------------------------
+  i          si     mix   beta      Etot       A       rn      rp         En      Dn      Ep      Dp        Ln      Lp     time  time(Gog.)
+  ----------------------------------------------------------------------------------------------------------------------------------
+   1L 104.79517383 0.30  0.000     0.000000    0.0   0.000   0.000 |   -2.000   1.000  -2.000   1.000 |   -7.000  -7.000   0.000   0.000
+                            f: ala2(n,p)=   0.072   0.051 #eln(n,p,t)=    -0.271    -0.172    -0.443 #del+ala2=   0.212   0.193
+   2B  91.03087151 0.10  0.017  -393.958893  196.0   8.930   8.656 |   -2.685   0.212  -2.475   0.193 |  -36.386 -45.347  55.970   0.000
+                            f: ala2(n,p)=   0.148   0.084 #eln(n,p,t)=    -0.528    -0.421    -0.949 #del+ala2=   0.304   0.269
+   3B  30.50902264 0.11  0.049  -568.949577  196.0   8.510   8.791 |   -1.444   0.304  -1.606   0.269 |  -16.335 -14.591  50.189   0.000
+                            f: ala2(n,p)=   0.107   0.068 #eln(n,p,t)=    -0.373    -0.377    -0.750 #del+ala2=   0.256   0.294
+   4B  43.04690848 0.10  0.211  -506.408435  196.0   9.541   8.903 |   -1.016   0.256  -1.698   0.294 |   -9.157  -3.610  49.729   0.000
+                            f: ala2(n,p)=   0.079   0.060 #eln(n,p,t)=    -0.369    -0.368    -0.737 #del+ala2=   0.283   0.321
+   5L  30.76470241 0.11  0.075  -791.269510  196.0   8.131   7.936 |   -1.395   0.283  -1.958   0.321 |   -6.486  -1.010  50.335   0.000

@@ -63,16 +63,23 @@ for fName in fileList:
     
     #Figure out if this converged
     conv = "converged" in enTable[-1]
+    print("conv: " + str(conv))
     resTable["Converged"] = conv
     #Try to get the time if it didn't time out
     try:
         #Get the CPU time it took
         time = fIn[-1].split("si=")[1].split("\n")[2].split()[3]
+        print("time: " + str(time))
         time = float(time)
         timeUnits = fIn[-1].split("si=")[1].split("\n")[2].split()[4]
         timeOut = False
     except:
         timeOut = True
+
+    if(time == "minutes"):
+       timeOut = False
+
+    print("timeOut: " + str(timeOut))
 
     #take the enTable and split it up
     enTable = [enTable[ind].split() for ind in range(5,len(enTable)-3,2)]

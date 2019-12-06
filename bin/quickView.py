@@ -45,6 +45,9 @@ for i in range(1,int(sys.argv[1])+1,1):
     enTable = [enTable[ind].split() for ind in range(5,len(enTable)-3,2)]
     
     #Get the energies and stability parameters[1] is si, [4] is energy
+    #Another star error fix
+    print("marker")
+    [print(enTable[ind][4]) for ind in range(len(enTable))]
     energies = [-float(enTable[ind][4]) for ind in range(len(enTable))]
     #changed to fix star error
     #si = [float(enTable[ind][1]) for ind in range(len(enTable))]

@@ -1,7 +1,7 @@
 #!/bin/bash --login
 
-#SBATCH --ntasks=2
-#SBATCH --time=12:00:00
+#SBATCH --ntasks=1
+#SBATCH --time=16:00:00
 #SBATCH --cpus-per-task=16
 #SBATCH --mem-per-cpu=1G
 #SBATCH --job-name hfbtho-PES-196Pb
@@ -14,8 +14,8 @@ ulimit -s unlimited
 
 # Customization of names and places
 EXEC=${HFBTHODIR}"/hfbtho_main"
-DATADIR="/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150comp3retry4using2"
-OUT=$DATADIR"/Pb196OutTest-100to150comp3retry4using2.txt"
+DATADIR="/mnt/home/kendzi23/FissionHFBTHO/running/Pb196-100to150newpoint117"
+OUT=$DATADIR"/Pb196OutTest-100to150newpoint117.txt"
 
 #Running the job
 cd $DATADIR
@@ -29,7 +29,7 @@ module load intel
 
 
 date
-srun -n 2  ${EXEC} &> ${OUT}
+srun -n 1  ${EXEC} &> ${OUT}
 date
 
 scontrol show job $SLURM_JOB_ID

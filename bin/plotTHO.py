@@ -38,7 +38,7 @@ try:
     with open(fName, 'r') as fIn:
         # Load in the dictionary
         runs = json.load(fIn)
-        
+
         # Generate the error string to use in validation
         error = """\
 {} not a valid option. Valid options: 
@@ -119,7 +119,6 @@ for run in runs:
     if xSub < 0:
         xData.append(float(run[xAxis]))
     else:
-        print(str(run[xAxis][xSub]))
         xData.append(float(run[xAxis][xSub]))
 
     # Loop through the yAxis and get the data
