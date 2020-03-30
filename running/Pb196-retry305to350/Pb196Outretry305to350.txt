@@ -1,0 +1,13 @@
+task 000001 finished row 000001
+task 000005 finished row 000005
+task 000002 finished row 000002
+task 000007 finished row 000007
+task 000006 finished row 000006
+task 000000 finished row 000010
+task 000009 finished row 000009
+task 000003 finished row 000003
+task 000008 finished row 000008
+task 000004 finished row 000004
+ 
+ HFBTHO_SOLVER ended without errors
+ 

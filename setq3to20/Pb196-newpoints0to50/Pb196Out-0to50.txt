@@ -1,0 +1,113 @@
+task 000009 finished row 000009
+task 000000 finished row 000011
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002B553B4685D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B553DAE7359  Unknown               Unknown  Unknown
+librxm-fi.so       00002B553DAE993B  Unknown               Unknown  Unknown
+librxm-fi.so       00002B553DAEA02D  Unknown               Unknown  Unknown
+librxm-fi.so       00002B553DAEA1C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002B553DAF01E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002B553BC3C3B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002B553BC9A38F  Unknown               Unknown  Unknown
+libmpi.so.12       00002B553BC96DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B553B75D6BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B553D2F13D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-439: task 9: Exited with exit code 174
+task 000002 finished row 000002
+task 000008 finished row 000008
+task 000010 finished row 000010
+task 000004 finished row 000004
+task 000006 finished row 000006
+task 000003 finished row 000003
+task 000001 finished row 000001
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002B800939B5D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B800BA1A359  Unknown               Unknown  Unknown
+librxm-fi.so       00002B800BA1C93B  Unknown               Unknown  Unknown
+librxm-fi.so       00002B800BA1D02D  Unknown               Unknown  Unknown
+librxm-fi.so       00002B800BA1D1C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002B800BA231E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002B8009B6F3B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002B8009BCD38F  Unknown               Unknown  Unknown
+libmpi.so.12       00002B8009BC9DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B80096906BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B800B2243D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-440: task 10: Exited with exit code 174
+task 000007 finished row 000007
+task 000005 finished row 000005
+slurmstepd: error: *** STEP 55087713.0 ON lac-042 CANCELLED AT 2020-02-18T08:16:12 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E6CE  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E6CE  Unknown               Unknown  Unknown
+libpthread.so.0    00002AEF568465D0  Unknown               Unknown  Unknown
+libverbs-fi.so     00002AEF5913E310  Unknown               Unknown  Unknown
+libverbs-fi.so     00002AEF5911E28A  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.

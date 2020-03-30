@@ -1,0 +1,4 @@
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+srun: error: lac-399: task 1: Exited with exit code 2
+srun: error: lac-398: task 0: Exited with exit code 2

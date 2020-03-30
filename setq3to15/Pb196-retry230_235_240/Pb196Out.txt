@@ -1,0 +1,54 @@
+task 000000 finished row 000003
+task 000002 finished row 000002
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002AC1798C25D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002AC17BF41359  Unknown               Unknown  Unknown
+librxm-fi.so       00002AC17BF4393B  Unknown               Unknown  Unknown
+librxm-fi.so       00002AC17BF4402D  Unknown               Unknown  Unknown
+librxm-fi.so       00002AC17BF441C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002AC17BF4A1E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002AC17A0963B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002AC17A0F438F  Unknown               Unknown  Unknown
+libmpi.so.12       00002AC17A0F0DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002AC179BB76BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002AC17B74B3D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-416: task 2: Exited with exit code 174
+task 000001 finished row 000001
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002B46D0B565D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B46D31D5359  Unknown               Unknown  Unknown
+librxm-fi.so       00002B46D31D793B  Unknown               Unknown  Unknown
+librxm-fi.so       00002B46D31D802D  Unknown               Unknown  Unknown
+librxm-fi.so       00002B46D31D81C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002B46D31DE1E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002B46D132A3B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002B46D138838F  Unknown               Unknown  Unknown
+libmpi.so.12       00002B46D1384DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B46D0E4B6BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B46D29DF3D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: lac-415: task 1: Exited with exit code 174
+slurmstepd: error: *** STEP 55492632.0 ON lac-414 CANCELLED AT 2020-02-25T01:18:15 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.

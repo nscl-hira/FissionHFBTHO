@@ -1,0 +1,5 @@
+task 000001 finished row 000001
+task 000000 finished row 000002
+ 
+ HFBTHO_SOLVER ended without errors
+ 

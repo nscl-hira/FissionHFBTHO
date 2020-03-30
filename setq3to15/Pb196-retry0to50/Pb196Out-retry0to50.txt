@@ -1,0 +1,144 @@
+task 000004 finished row 000004
+task 000003 finished row 000003
+task 000005 finished row 000005
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002BA012F2A5D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002BA09A82E359  Unknown               Unknown  Unknown
+librxm-fi.so       00002BA09A83093B  Unknown               Unknown  Unknown
+librxm-fi.so       00002BA09A83102D  Unknown               Unknown  Unknown
+librxm-fi.so       00002BA09A8311C2  Unknown               Unknown  Unknown
+librxm-fi.so       00002BA09A8371E7  Unknown               Unknown  Unknown
+libmpi.so.12       00002BA0136FE3B4  Unknown               Unknown  Unknown
+libmpi.so.12       00002BA01375C38F  Unknown               Unknown  Unknown
+libmpi.so.12       00002BA013758DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002BA01321F6BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002BA014DB33D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: skl-033: task 4: Exited with exit code 174
+task 000001 finished row 000001
+task 000002 finished row 000002
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E700  Unknown               Unknown  Unknown
+libpthread.so.0    00002B30C93A65D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B3150CAA359  Unknown               Unknown  Unknown
+librxm-fi.so       00002B3150CAC93B  Unknown               Unknown  Unknown
+librxm-fi.so       00002B3150CAD02D  Unknown               Unknown  Unknown
+librxm-fi.so       00002B3150CB8D7A  Unknown               Unknown  Unknown
+librxm-fi.so       00002B3150CCE9DD  Unknown               Unknown  Unknown
+librxm-fi.so       00002B3150CCF5EB  Unknown               Unknown  Unknown
+libmpi.so.12       00002B30C9B90432  Unknown               Unknown  Unknown
+libmpi.so.12       00002B30C9B7B03A  Unknown               Unknown  Unknown
+libmpi.so.12       00002B30C9BD838F  Unknown               Unknown  Unknown
+libmpi.so.12       00002B30C9BD4DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B30C969B6BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B30CB22F3D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+srun: error: skl-031: task 1: Exited with exit code 174
+task 000007 finished row 000007
+task 000009 finished row 000009
+task 000010 finished row 000010
+task 000008 finished row 000008
+task 000006 finished row 000006
+task 000000 finished row 000011
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E6CE  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E6CE  Unknown               Unknown  Unknown
+libpthread.so.0    00002BA9BDB505D0  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E6CE  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E6CE  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+slurmstepd: error: *** STEP 54330947.0 ON skl-030 CANCELLED AT 2020-02-01T10:30:21 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E6CE  Unknown               Unknown  Unknown
+libpthread.so.0    00002B9CA70185D0  Unknown               Unknown  Unknown
+librxm-fi.so       00002B9D2E9414D0  Unknown               Unknown  Unknown
+libmpi.so.12       00002B9CA7802432  Unknown               Unknown  Unknown
+libmpi.so.12       00002B9CA77ED671  Unknown               Unknown  Unknown
+libmpi.so.12       00002B9CA784A38F  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+hfbtho_main        0000000000643065  Unknown               Unknown  Unknown
+hfbtho_main        0000000000640C87  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D12D4  Unknown               Unknown  Unknown
+hfbtho_main        00000000005D10E6  Unknown               Unknown  Unknown
+hfbtho_main        000000000055AFA9  Unknown               Unknown  Unknown
+hfbtho_main        000000000055E6CE  Unknown               Unknown  Unknown
+libpthread.so.0    00002ACE91C8F5D0  Unknown               Unknown  Unknown
+libmlx5-rdmav2.so  00002ACE9508859A  Unknown               Unknown  Unknown
+libverbs-fi.so     00002ACE94567435  Unknown               Unknown  Unknown
+librxm-fi.so       00002ACE9431CE0D  Unknown               Unknown  Unknown
+librxm-fi.so       00002ACE943329DD  Unknown               Unknown  Unknown
+libmpi.so.12       00002B9CA7846DD0  Unknown               Unknown  Unknown
+libmpifort.so.12   00002B9CA730D6BC  Unknown               Unknown  Unknown
+hfbtho_main        0000000000406A72  Unknown               Unknown  Unknown
+hfbtho_main        000000000040585E  Unknown               Unknown  Unknown
+libc.so.6          00002B9CA8EA13D5  Unknown               Unknown  Unknown
+hfbtho_main        0000000000405769  Unknown               Unknown  Unknown
+librxm-fi.so       00002ACE943335EB  Unknown               Unknown  Unknown
+libmpi.so.12       00002ACE92479432  Unknown               Unknown  Unknown

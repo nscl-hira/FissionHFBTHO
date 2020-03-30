@@ -1,2 +1,3 @@
 /mnt/home/kendzi23/FissionHFBTHO/setq3to10/Pb196-0to50
 Fri Dec  6 12:58:40 EST 2019
+slurmstepd: error: *** JOB 51347669 ON skl-023 CANCELLED AT 2019-12-07T06:58:46 DUE TO TIME LIMIT ***

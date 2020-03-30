@@ -1,0 +1,20 @@
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+srun: error: lac-038: task 0: Exited with exit code 2
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+srun: error: lac-363: task 4: Exited with exit code 2
+srun: error: lac-336: task 3: Exited with exit code 2
+srun: error: lac-039: task 1: Exited with exit code 2
+srun: error: lac-364: task 5: Exited with exit code 2
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+srun: error: lac-392: task 8: Exited with exit code 2
+srun: error: lac-394: task 9: Exited with exit code 2
+srun: error: lac-209: task 2: Exited with exit code 2
+slurmstepd: error: execve(): /hfbtho_main: No such file or directory
+srun: error: lac-390: task 7: Exited with exit code 2
+srun: error: lac-383: task 6: Exited with exit code 2

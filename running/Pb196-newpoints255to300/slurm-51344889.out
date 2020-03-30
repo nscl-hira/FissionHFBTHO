@@ -1,2 +1,3 @@
 /mnt/home/kendzi23/FissionHFBTHO/running/Pb196-newpoints255to300
 Fri Dec  6 12:28:03 EST 2019
+slurmstepd: error: *** JOB 51344889 ON skl-037 CANCELLED AT 2019-12-07T04:28:25 DUE TO TIME LIMIT ***

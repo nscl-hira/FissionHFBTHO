@@ -8,6 +8,21 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d
 import sys
 
+SMALL_SIZE = 15
+MEDIUM_SIZE = 20
+LARGE_SIZE = 30
+
+plt.rc('font', size=SMALL_SIZE)
+plt.rc('axes', titlesize=SMALL_SIZE)
+plt.rc('axes', labelsize=MEDIUM_SIZE)
+plt.rc('xtick', labelsize=SMALL_SIZE)
+plt.rc('ytick', labelsize=SMALL_SIZE)
+#plt.rc('legend', fontsize=SMALL_SIZE)
+plt.rc('figure', titlesize=LARGE_SIZE)
+
+
+
+
 
 def usage():
     print("""\
@@ -152,15 +167,15 @@ for i in range(numY):
     subPlot[-1].plot(xDataSorted, yData[i], 'o', xInterp, yInterp(xInterp), "--")
     
     # Add a legend and label axis
-    subPlot[-1].legend(["data"], loc="best")
-    subPlot[-1].set_ylabel(yAxis[i])
+    #subPlot[-1].legend(["data"], loc="best")
+    subPlot[-1].set_ylabel(yAxis[i] + " (b^3/2)")
 
 title = title[:-2] + " vs " + xAxis
-title = "HFBTHO Observables"
+#title = "HFBTHO Observables"
 
 # Set the title and x axis label
 fig.suptitle(title)
-subPlot[-1].set_xlabel(xAxis)
+subPlot[-1].set_xlabel(xAxis + " (b)")
 
 # Show the plot
 plt.show()

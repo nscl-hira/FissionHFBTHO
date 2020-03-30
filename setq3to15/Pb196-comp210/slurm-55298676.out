@@ -1,0 +1,31 @@
+/mnt/home/kendzi23/FissionHFBTHO/setq3to15/Pb196-comp210
+Fri Feb 21 15:31:32 EST 2020
+Fri Feb 21 16:57:50 EST 2020
+JobId=55298676 JobName=hfbtho-PES-196Pb
+   UserId=kendzi23(992748) GroupId=nscl(2002) MCS_label=N/A
+   Priority=32648 Nice=0 Account=general QOS=kendzi23
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=01:26:35 TimeLimit=10:00:00 TimeMin=N/A
+   SubmitTime=2020-02-21T15:15:32 EligibleTime=2020-02-21T15:15:32
+   AccrueTime=2020-02-21T15:15:32
+   StartTime=2020-02-21T15:31:17 EndTime=2020-02-22T01:31:17 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2020-02-21T15:31:17
+   Partition=general-long AllocNode:Sid=dev-intel16.i:22537
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=skl-083
+   BatchHost=skl-083
+   NumNodes=1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=16,mem=16G,node=1,billing=2490
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=16 MinMemoryCPU=1G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/ufs18/home-173/kendzi23/FissionHFBTHO/setq3to15/Pb196-comp210/submitIntel.sh
+   WorkDir=/mnt/ufs18/home-173/kendzi23/FissionHFBTHO/setq3to15/Pb196-comp210
+   Comment=stdout=/mnt/ufs18/home-173/kendzi23/FissionHFBTHO/setq3to15/Pb196-comp210/slurm-55298676.out 
+   StdErr=/mnt/ufs18/home-173/kendzi23/FissionHFBTHO/setq3to15/Pb196-comp210/slurm-55298676.out
+   StdIn=/dev/null
+   StdOut=/mnt/ufs18/home-173/kendzi23/FissionHFBTHO/setq3to15/Pb196-comp210/slurm-55298676.out
+   Power=
+
