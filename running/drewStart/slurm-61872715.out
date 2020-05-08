@@ -1,0 +1,3 @@
+/mnt/home/antho121/FissionHFBTHO/running/drewStart
+Wed May  6 12:07:00 EDT 2020
+slurmstepd: error: *** JOB 61872715 ON lac-038 CANCELLED AT 2020-05-06T12:17:25 DUE TO TIME LIMIT ***
